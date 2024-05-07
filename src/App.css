@@ -40,3 +40,25 @@
 .img {
   width: 25%
 }
+
+.movie-card {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.movie-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.date-text {
+  font-size: 35px;
+  width: 20px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 25px
+}
